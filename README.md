@@ -1,9 +1,9 @@
 Loan Repayment Prediction
-📘 Project Overview
+Project Overview
 
 This project aims to predict the likelihood of a borrower repaying a loan using machine learning techniques. By analyzing various borrower attributes, the model assists financial institutions in assessing credit risk and making informed lending decisions.
 
-🧠 Objective
+Objective
 
 The primary objective is to develop a predictive model that classifies loan applicants into two categories:
 
@@ -11,7 +11,7 @@ Fully Paid: The borrower repaid the loan on time.
 
 Charged Off: The borrower defaulted on the loan.
 
-📊 Dataset
+Dataset
 
 The dataset utilized in this project is sourced from Kaggle's LendingClub dataset
 , which contains information about loan applicants, including:
@@ -34,7 +34,7 @@ Credit History Length: The length of the borrower's credit history.
 
 Purpose: The purpose of the loan (e.g., debt consolidation, credit card refinancing).
 
-🔧 Methodology
+Methodology
 1. Data Preprocessing
 
 Handling Missing Values: Imputed missing values using appropriate strategies.
@@ -69,15 +69,15 @@ Cross-Validation: To ensure the model's performance is consistent across differe
 
 Hyperparameter Tuning: Employed grid search to find the optimal hyperparameters for each model.
 
-📈 Results
+Results
 
 The Gradient Boosting Classifier achieved the highest performance metrics, with an accuracy of 85%, precision of 83%, recall of 87%, and an F1-score of 85%.
 
-🚀 Deployment
+Deployment
 
 For deployment, the trained model was saved using joblib and integrated into a Flask web application. The application allows users to input borrower details and receive a prediction on loan repayment.
 
-🛠️ Technologies Used
+Technologies Used
 
 Python Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
